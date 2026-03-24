@@ -8,7 +8,7 @@ const GetProductsComponent = () => {
   let [loading, setLoading] = useState("");
   let [error, setError] = useState("");
   let [trousers, setTrousers] = useState([]);
-  let [tshirst, setTshirts] = useState([]);
+  // let [tshirst, setTshirts] = useState([]);
   let [jackets, setJackets] = useState([]);
   let [search_word, setSearchWord] = useState("");
   let [filtered_products, setFilteredProducts] = useState([]);
