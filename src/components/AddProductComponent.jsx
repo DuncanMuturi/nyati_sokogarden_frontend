@@ -52,7 +52,7 @@ const AddProductComponent = () => {
 
   return (
     <div className="row justify-content-center my-3">
-      {/* <NavbarComponent /> */}
+      <NavbarComponent />
       <div className="col-md-6 card shadow p-4">
         <h2>Add product</h2>
         <h5 className="text-warning">{loading}</h5>
